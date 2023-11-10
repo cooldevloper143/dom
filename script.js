@@ -1,5 +1,9 @@
 var a = document.querySelector("h1");
-a.innerHTML="changed html";
 a.style.color="red";
-a.style.backgroundColor="black";
+a.addEventListener("click",()=>{
+    // console.log("this element was clicked");
+    a.innerHTML="akshata";
+    a.style.backgroundColor="pink";
+
+})
 console.log(a.innerHTML);
